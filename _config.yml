@@ -4,7 +4,7 @@ email: leolazzarini101@g,ail.com
 url: https://leolazz.tech
 description: 'Full Stack Software Developer. Typescript | Angluar | Ionic | React | C# | Javascript | NestJs | Docker | Kubernetes'
 keywords: 'Software, Developer, SDE, Typescript, Angluar, Ionic, React, C#, Javascript, NestJs, Docker, Kubernetes'
-skills: 'Full Stack Developer - DevOps - Sales'
+skills: 'Full Stack Developer - Sales'
 meta_author: Lazzarini Leo
 
 # Google webmaster tools
@@ -28,7 +28,7 @@ color:
   primary: 00262c #80B3FF
   primary-rgb: '0, 73, 83' #"128,179,255"
   secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary-dark: 00262c #A2122F
 
 # Footer settings
 footer:
