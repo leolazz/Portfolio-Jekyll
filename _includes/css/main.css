@@ -262,6 +262,22 @@ section.success {
   }
 }
 
+@media(max-width:1199px) {
+  #pad-bottom-small-screen {
+      margin: 0 0 30px;
+  }
+}
+@media(max-width:1636px) {
+ #center-list-small-screen {
+    text-align: center;
+    list-style: inside;
+    padding-right: 5%;
+
+  }
+}
+
+
+
 /* Flexbox Portfolio Grid */
 @media (min-width: 640px) {
     .portfolio-flex-grid .portfolio-flex-row {
