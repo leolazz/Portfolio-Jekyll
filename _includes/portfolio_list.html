@@ -1,0 +1,62 @@
+{% for post in site.posts %}
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-10 col-lg-offset-1 ">
+      <div class="modal-body">
+        <h2 class="text-center">{{ post.title }}</h2>
+        <h3 class="text-center">{{post.company}}</h3>
+        <hr class="star-primary" />
+        <img
+          src="img/portfolio/{{ post.img }}"
+          class="img-responsive img-centered img-responsive-crisp"
+          alt="{{ post.alt }}"
+        />
+
+
+        {% if post.description %}
+        <p>{{ post.description }}</p>
+        {% endif %}
+        <ul id="center-list-small-screen" class="list-inline item-details">
+          <h4 class="text-center">Stack Leveraged</h4>
+          {% if post.frontend %}
+          <li>
+            Frontend:
+            <strong><a>{{post.frontend}}</a> </strong>
+          </li>
+          {% endif %} {% if post.backend%}
+          <li>
+            Backend:
+            <strong><a>{{ post.backend }}</a> </strong>
+          </li>
+          {% endif %} {% if post.persistence %}
+          <li>
+            Persistence:
+            <strong><a>{{ post.persistence }}</a> </strong>
+          </li>
+          {% endif %} {% if post.deployment %}
+          <li>
+            Deployment:
+            <strong><a>{{ post.deployment }}</a> </strong>
+          </li>
+          {% endif %}
+        </ul >
+        <h4 class="text-center"> {% if post.backendUrl %}
+          <a class="btn btn-primary" href="{{post.backendUrl}}"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+            > Backend</a>
+          {% endif %}
+
+          {% if post.frontendUrl %}
+          <a class="btn btn-primary" href="{{post.frontendUrl}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+            >Frontend</a>
+          {% endif %}
+          {% if post.singleRepo %}
+          <a class="btn btn-primary" href="{{post.singleRepo}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+            >Frontend</a>
+          {% endif %}</h4>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
