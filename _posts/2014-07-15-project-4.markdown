@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Parttime.dev
 modal-id: 4
 date: 2014-07-15
-img: game.png
+img: parttimedev.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
