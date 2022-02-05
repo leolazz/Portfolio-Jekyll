@@ -1,0 +1,17 @@
+---
+title: 2BeDone
+singleRepo: https://github.com/leolazz/ToDoList
+frontend: MVC 5 | Razor Pages | C#
+backend: .NET CORE 5 | C# | Xunit
+persistence: Sqlite | Entity Framework
+deployment: Docker | Kubernetes | k3s
+description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+modal-id: 4
+date: 2014-07-16
+img: circus.png
+project-date: April 2014
+category: Web Development
+client: Start Bootstrap
+alt: image-alt
+layout: default
+---

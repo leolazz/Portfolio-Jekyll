@@ -1,9 +1,15 @@
 ---
-title: 2BeDone
+title: 2BeDone App
+backendUrl: https://github.com/leolazz/2bedone-pwa-backend
+frontendUrl: https://github.com/leolazz/2bdone-PWA-frontend
+frontend: Angular | Ionic | Apollo | TypeScript
+backend: Nestjs | Node | GraphQL | TypeScript
+persistence: Sqlite | TypeOrm
+deployment: Docker | Kubernetes | k3s
 layout: default
-modal-id: 3
-date: 2014-07-16
-img: circus.png
+modal-id: 2
+date: 2021-08-17
+img: cake.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

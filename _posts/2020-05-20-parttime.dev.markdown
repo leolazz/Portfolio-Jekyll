@@ -1,0 +1,18 @@
+---
+title: Parttime.dev
+backendUrl: https://github.com/leolazz/parttimedev-backend
+frontendUrl: https://github.com/leolazz/parttimedev-frontend
+frontend: React | TypeScript
+backend: Nestjs | Node | GraphQL | Puppeteer | TypeScript
+persistence: PostgresSQL | TypeOrm
+deployment: Docker | Kubernetes | k3s
+description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+layout: default
+modal-id: 1
+date: 2021-09-15
+img: parttimedev.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+---
