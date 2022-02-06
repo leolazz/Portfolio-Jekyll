@@ -1,9 +1,10 @@
 {% for post in site.posts %}
+<section id="portfolio">
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-lg-10 col-lg-offset-1 ">
       <div class="modal-body">
-        <h2 class="text-center">{{ post.title }}</h2>
+        <h2 class="text-center"  style="word-wrap: break-word; white-space: normal">{{ post.title }}</h2>
         <h3 class="text-center">{{post.company}}</h3>
         <hr class="star-primary" />
         <img
@@ -41,17 +42,17 @@
           {% endif %}
         </ul >
         <h4 class="text-center"> {% if post.backendUrl %}
-          <a class="btn btn-primary" href="{{post.backendUrl}}"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
-            > Backend</a>
+          <a class="btn btn-primary btn-sm" href="{{post.backendUrl}}"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+            > <p>Backend</p></a>
           {% endif %}
 
           {% if post.frontendUrl %}
-          <a class="btn btn-primary" href="{{post.frontendUrl}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
-            >Frontend</a>
+          <a class="btn btn-primary btn-sm" href="{{post.frontendUrl}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+            ><p>Frontend</p></a>
           {% endif %}
           {% if post.singleRepo %}
-          <a class="btn btn-primary" href="{{post.singleRepo}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
-            >Frontend</a>
+          <a class="btn btn-primary btn-sm"  href="{{post.singleRepo}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+            ><p>Mono-Repo</p></a>
           {% endif %}</h4>
            
         </div>
@@ -59,4 +60,5 @@
     </div>
   </div>
 </div>
+</section>
 {% endfor %}
