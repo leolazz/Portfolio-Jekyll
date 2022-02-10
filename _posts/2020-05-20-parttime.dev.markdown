@@ -1,5 +1,5 @@
 ---
-title: Parttime.dev
+title: Parttime<wbr>.dev
 backendUrl: https://github.com/leolazz/parttimedev-backend
 frontendUrl: https://github.com/leolazz/parttimedev-frontend
 frontend: React | TypeScript
