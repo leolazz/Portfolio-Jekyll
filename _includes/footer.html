@@ -4,14 +4,6 @@
     <div class="container">
       <div class="row">
         <div class="footer-col col-md-4">
-          <h3>View Github</h3>
-          <a
-            href="https://github.com/leolazz"
-            class="btn-github btn-github-outline"
-            ><i class="fa fa-fw fa-4x fa-github"></i
-          ></a>
-        </div>
-        <div class="footer-col col-md-4">
           <h3>Inquiries</h3>
           <h5>
             <a class="a-light" href="mailto:contact@leolazz.tech"
@@ -20,11 +12,19 @@
           </h5>
         </div>
         <div class="footer-col col-md-4">
+          <h3>View Github</h3>
+          <a
+            href="https://github.com/leolazz"
+            class="btn-github btn-github-outline"
+            ><i class="fa fa-fw fa-4x fa-github"></i
+          ></a>
+        </div>
+        <div class="footer-col col-md-4">
           <h3>{{ site.footer.location }}</h3>
-          <p>
+          <h5>
             {% for adress in site.address %} {{ adress.line }} <br />
             {% endfor %}
-          </p>
+          </h5>
         </div>
       </div>
     </div>
