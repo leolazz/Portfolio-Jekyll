@@ -6,7 +6,8 @@ frontend: React | TypeScript
 backend: Nestjs | Node | GraphQL | Puppeteer | TypeScript
 persistence: PostgresSQL | TypeOrm
 deployment: Docker | Kubernetes | k3s
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: A job board site made specifically for finding part-time work opportunities for developers and related careers. Job listings are dynamically collected by scraping indeed with the Puppeteer library. Storage of non normalized data sets, deployment bot detection counter-measures, complex dom traversal using a headless browser, CRON
+
 layout: default
 modal-id: 1
 date: 2021-09-15

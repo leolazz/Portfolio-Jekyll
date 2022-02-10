@@ -9,7 +9,7 @@ deployment: Docker | Kubernetes | k3s
 layout: default
 modal-id: 2
 date: 2021-08-17
-img: cake.png
+img: 2bedonepwa.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
