@@ -1,6 +1,6 @@
 # Site settings
 title: Leo Lazzarini
-email: leolazzarini101@g,ail.com
+email: contac@leolazz.tech
 url: https://leolazz.tech
 description: 'Full Stack Software Developer. Typescript | Angluar | Ionic | React | C# | Javascript | NestJs | Docker | Kubernetes'
 keywords: 'Software, Developer, SDE, Typescript, Angluar, Ionic, React, C#, Javascript, NestJs, Docker, Kubernetes'
@@ -17,7 +17,8 @@ bing_verify:
 # - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
-contact: static
+# - simple: displays "contact@leolazz.tech"
+contact:
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
