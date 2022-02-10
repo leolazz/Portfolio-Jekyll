@@ -1,6 +1,7 @@
 ---
 title: 2BeDone
 singleRepo: https://github.com/leolazz/ToDoList
+website: https://2bedone.lazz.tech/
 frontend: MVC 5 | Razor Pages | C#
 backend: .NET CORE 5 | C# | Xunit
 persistence: Sqlite | Entity Framework

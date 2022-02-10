@@ -7,7 +7,7 @@ persistence: Sqlite | TypeOrm
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: A geolocation-based social app. Contributed to front-end and back-end via ticket work including feature implementation, performance improvements, bug fixes.
 layout: default
 modal-id: 1
 date: October 2021 - Ongoing

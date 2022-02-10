@@ -42,13 +42,17 @@
           {% endif %}
         </ul >
         <div id="center-list-small-screen" class="list-inline item-details">
-        <h4 class="text-center"> {% if post.backendUrl %}
+          <h4 class="text-center">View More</h4>
+        <h4 class="text-center"> 
+          <a class="btn btn-primary btn-sm"  href="{{post.website}}"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
+            ><p>website</p></a>
+            {% if post.backendUrl %}
           <a class="btn btn-primary btn-sm" href="{{post.backendUrl}}"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
             > <p>Backend</p></a>
           {% endif %}
 
           {% if post.frontendUrl %}
-          <a class="btn btn-primary btn-sm" href="{{post.frontendUrl}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+          <a class="btn btn-primary btn-sm button-margin-mobile" href="{{post.frontendUrl}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
             ><p>Frontend</p></a>
           {% endif %}
           {% if post.singleRepo %}

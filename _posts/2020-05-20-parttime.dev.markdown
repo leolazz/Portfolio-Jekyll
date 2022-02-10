@@ -2,6 +2,7 @@
 title: Parttime<wbr>.dev
 backendUrl: https://github.com/leolazz/parttimedev-backend
 frontendUrl: https://github.com/leolazz/parttimedev-frontend
+website: https://parttimedev.lazz.tech/
 frontend: React | TypeScript
 backend: Nestjs | Node | GraphQL | Puppeteer | TypeScript
 persistence: PostgresSQL | TypeOrm

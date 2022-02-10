@@ -2,6 +2,7 @@
 title: 2BeDone App
 backendUrl: https://github.com/leolazz/2bedone-pwa-backend
 frontendUrl: https://github.com/leolazz/2bdone-PWA-frontend
+website: https://2bedone-pwa.lazz.tech/tabs/home
 frontend: Angular | Ionic | Apollo | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
 persistence: Sqlite | TypeOrm
@@ -14,5 +15,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: Rebuilt as a progressive web application to learn Angular, Ionic, and Typescript. Additional functionality added includes a calendar for tracking project and events.
 ---
