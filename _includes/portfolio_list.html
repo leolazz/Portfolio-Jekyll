@@ -7,11 +7,13 @@
         <h2 class="text-center"  style="word-wrap: break-word; white-space: normal">{{ post.title }}</h2>
         <h3 class="text-center">{{post.company}}</h3>
         <hr class="star-primary" />
+        <a href="{{post.website}}">
         <img
           src="img/portfolio/{{ post.img }}"
           class="img-responsive img-centered img-responsive-crisp"
           alt="{{ post.alt }}"
         />
+      </a>
 
 
         {% if post.description %}

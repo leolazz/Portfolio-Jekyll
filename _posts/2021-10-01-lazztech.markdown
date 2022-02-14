@@ -1,6 +1,7 @@
 ---
 title: LazzTech Hub
 company: Lazztech LLC
+website: https://lazz.tech/product-announcement-lazztech-hub/
 frontend: Angular | Ionic | Apollo | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
 persistence: Sqlite | TypeOrm
