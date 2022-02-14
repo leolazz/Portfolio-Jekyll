@@ -1,5 +1,5 @@
 ---
-title: 2BeDone App
+title: 2BeDone PWA
 backendUrl: https://github.com/leolazz/2bedone-pwa-backend
 frontendUrl: https://github.com/leolazz/2bdone-PWA-frontend
 website: https://2bedone-pwa.lazz.tech/tabs/home
@@ -15,5 +15,5 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Rebuilt as a progressive web application to learn Angular, Ionic, and Typescript. Additional functionality added includes a calendar for tracking project and events.
+description: Progressive Web App for tracking projects and tasks
 ---

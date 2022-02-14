@@ -8,7 +8,7 @@ persistence: Sqlite | TypeOrm
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: A geolocation-based social app. Contributed to front-end and back-end via ticket work including feature implementation, performance improvements, bug fixes.
+description: A geolocation-based social app
 layout: default
 modal-id: 1
 date: October 2021 - Ongoing

@@ -644,3 +644,18 @@ list-style: inside;
   background-color: #00262c;
   text-decoration: none;
 }
+
+.li-h5 {
+
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.ul-p>li{margin-top:10px;}
+.hr-green {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  border: 0;
+  border-top: 1.5px solid #00262c;
+}

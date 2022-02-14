@@ -6,7 +6,12 @@ frontend: MVC 5 | Razor Pages | C#
 backend: .NET CORE 5 | C# | Xunit
 persistence: Sqlite | Entity Framework
 deployment: Docker | Kubernetes | k3s
-description: Online platform for tracking tasks and projects. Built with a conscious effort to demonstrate SOLID principles.
+description: Online platform for tracking projects and tasks
+whyBullets: <ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  </ul>
 modal-id: 4
 date: 2014-07-16
 img: 2bedone.png

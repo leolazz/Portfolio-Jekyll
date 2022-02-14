@@ -1,5 +1,5 @@
 ---
-title: Parttime<wbr>.dev
+title: Parttime<wbr>dev.work
 backendUrl: https://github.com/leolazz/parttimedev-backend
 frontendUrl: https://github.com/leolazz/parttimedev-frontend
 website: https://parttimedev.lazz.tech/
@@ -7,8 +7,28 @@ frontend: React | TypeScript
 backend: Nestjs | Node | GraphQL | Puppeteer | TypeScript
 persistence: PostgresSQL | TypeOrm
 deployment: Docker | Kubernetes | k3s
-description: A job board site made specifically for finding part-time work opportunities for developers and related careers. Job listings are dynamically collected by scraping indeed with the Puppeteer library. Storage of non normalized data sets, deployment bot detection counter-measures, complex dom traversal using a headless browser, CRON
-
+description: A job board for developers & related fields to find part time work opportunities
+why: For my first project I used a simple, contrived idea in order to allow me to focus on the actual development process and patterns. Nonetheless, I spent much more time than was nessacary on the front-end design. Therefore, I wanted to tackle a more complex backend domain challenge, and limit myself to a simple front-end design.
+whyBullets: <ul>
+  <li>Rapidly learn a entirely new stack</li>
+  <li>Focus on a greater backend domain challange</li>
+  <li>Created a simple frontend focused soley on the business domain</li>
+  </ul>
+challenges:
+challengesB1: <ul class="ul-p">
+  <li>Parsing the legality of scraping different sources</li>
+  <li>Learning about device and browser fingerprints in order to</li>
+  <ul>
+  <li>Avoid bot detection, without any paid services</li>
+  <li>Employ preventative measures</li>
+  </ul>
+  </ul>
+challengesB2: <ul class="ul-p">
+  <li>Learning to traverse the DOM using a headless browser</li>
+  <li>Making a stable, lightweight, and fast CRUD operation for deployment on a limited resource enviroment</li>
+  <li>Dockerizing and deploying the backend with an instance of chromemium into a kubernetes cluster</li>
+  </ul>
+results: While learning a new stack and becoming more capable in it than my original I also, improved my mental model of the DOM in order to traverse it in a headless enviroment and greatly improved my skill level in Dev-Ops technologies like <strong>Docker</strong> and <strong>Kubernetes</strong>.
 layout: default
 modal-id: 1
 date: 2021-09-15
