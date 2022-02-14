@@ -7,7 +7,7 @@
         <h2 class="text-center"  style="word-wrap: break-word; white-space: normal">{{ post.title }}</h2>
         <h3 class="text-center">{{post.company}}</h3>
         <hr class="star-primary" />
-        <a href="{{post.website}}">
+        <a href="{{post.website}}" target="_blank" rel="noopener noreferrer"> 
         <img
           src="img/portfolio/{{ post.img }}"
           class="img-responsive img-centered img-responsive-crisp"
@@ -46,19 +46,19 @@
         <div id="center-list-small-screen">
           <h4 class="text-center">View More</h4>
         <h4 class="text-center"> 
-          <a class="btn btn-primary btn-sm"  href="{{post.website}}"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
+          <a class="btn btn-primary btn-sm"  href="{{post.website}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
             ><p>website</p></a>
             {% if post.backendUrl %}
-          <a class="btn btn-primary btn-sm" href="{{post.backendUrl}}"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+          <a class="btn btn-primary btn-sm" href="{{post.backendUrl}}" target="_blank" rel="noopener noreferrer"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
             > <p>Backend</p></a>
           {% endif %}
 
           {% if post.frontendUrl %}
-          <a class="btn btn-primary btn-sm button-margin-mobile" href="{{post.frontendUrl}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+          <a class="btn btn-primary btn-sm button-margin-mobile" href="{{post.frontendUrl}}" target="_blank" rel="noopener noreferrer"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
             ><p>Frontend</p></a>
           {% endif %}
           {% if post.singleRepo %}
-          <a class="btn btn-primary btn-sm"  href="{{post.singleRepo}}"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+          <a class="btn btn-primary btn-sm"  href="{{post.singleRepo}}" target="_blank" rel="noopener noreferrer"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
             ><p>Mono-Repo</p></a>
           {% endif %}</h4>
         </div>
