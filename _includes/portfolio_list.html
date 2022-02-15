@@ -33,7 +33,7 @@
     </div>
 
     <div class="row">
-      <h4 class="text-center">Results</h4>
+      <h4 style="margin-top: 10px;" class="text-center">Results</h4>
       <hr class="hr-green">
       <div class="col-lg-12 text-center" ><p >{{post.results}}</p></div>
     </div>
@@ -41,8 +41,8 @@
 
 
         <div class="col-lg-10 col-lg-offset-1 ">
-          <hr class="hr-green">
           <h4 class="text-center">Stack Leveraged</h4>
+          <hr class="hr-green">
           <div clas="row">
             <ul id="center-list-small-screen" class="list-inline stack-list item-details">
 
@@ -80,14 +80,14 @@
         <h4 class="text-center"> 
           <a class="btn btn-primary btn-sm"  href="{{post.website}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
             ><p>website</p></a>
-            {% if post.backendUrl %}
-          <a class="btn btn-primary btn-sm" href="{{post.backendUrl}}" target="_blank" rel="noopener noreferrer"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
-            > <p>Backend</p></a>
-          {% endif %}
-
+        
           {% if post.frontendUrl %}
           <a class="btn btn-primary btn-sm button-margin-mobile" href="{{post.frontendUrl}}" target="_blank" rel="noopener noreferrer"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
             ><p>Frontend</p></a>
+          {% endif %}
+          {% if post.backendUrl %}
+          <a class="btn btn-primary btn-sm" href="{{post.backendUrl}}" target="_blank" rel="noopener noreferrer"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+            > <p>Backend</p></a>
           {% endif %}
           {% if post.singleRepo %}
           <a class="btn btn-primary btn-sm"  href="{{post.singleRepo}}" target="_blank" rel="noopener noreferrer"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
