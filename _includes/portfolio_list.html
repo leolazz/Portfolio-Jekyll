@@ -1,5 +1,5 @@
 {% for post in site.posts %}
-<section id="portfolio">
+<section id="portfolio" class="portfolio-{{post.modal-id}}">
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-lg-10 col-lg-offset-1 ">
@@ -18,7 +18,7 @@
       </a>
       {% if post.why %}
       <div class="row">
-      <h4 class="text-center">Why I Made this</h4>
+      <h4 style="margin-top: 20px;" class="text-center">Why I Made this</h4>
       <hr class="hr-green">
       <div class="col-lg-5 li-h5" >{{post.whyBullets}}</div>
       <div class="col-lg-7" ><p >{{post.why}}</p></div>
@@ -42,33 +42,41 @@
 
         <div class="col-lg-10 col-lg-offset-1 ">
           <hr class="hr-green">
-        <ul id="center-list-small-screen" class="list-inline item-details">
           <h4 class="text-center">Stack Leveraged</h4>
+          <div clas="row">
+            <ul id="center-list-small-screen" class="list-inline stack-list item-details">
+
           {% if post.frontend %}
           <li>
             Frontend:
-            <strong><a>{{post.frontend}}</a> </strong>
+            <strong>{{post.frontend}}</strong>
           </li>
           {% endif %} {% if post.backend%}
           <li>
             Backend:
-            <strong><a>{{ post.backend }}</a> </strong>
+            <strong>{{ post.backend }}</strong>
           </li>
+
+
           {% endif %} {% if post.persistence %}
           <li>
             Persistence:
-            <strong><a>{{ post.persistence }}</a> </strong>
+            <strong>{{ post.persistence }}</strong>
           </li>
           {% endif %} {% if post.deployment %}
           <li>
             Deployment:
-            <strong><a>{{ post.deployment }}</a> </strong>
+            <strong>{{ post.deployment }}</strong>
           </li>
+
           {% endif %}
         </ul >
-        <div id="center-list-small-screen">
-          <hr class="star-primary" />
-        </div>
+
+      </div>
+
+        <hr class="star-primary">
+
+
         <h4 class="text-center"> 
           <a class="btn btn-primary btn-sm"  href="{{post.website}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
             ><p>website</p></a>

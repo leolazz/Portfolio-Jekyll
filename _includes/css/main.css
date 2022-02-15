@@ -170,10 +170,15 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
-
 section {
-    padding: 100px 0;
+  padding-bottom: 50px;
 }
+
+section.portfolio-1{
+    padding-top: 100px 
+
+}
+
 
 section h2 {
     margin: 0;
@@ -191,7 +196,7 @@ section.success {
     }
 
     section.first {
-        padding-top: 75px;
+        padding-top: 100px;
     }
 }
 
@@ -475,6 +480,11 @@ footer .footer-below {
 }
 }
 
+.stack-list {
+  text-align: center;
+  list-style: inside;
+}
+
 .center-items {
   text-align: center;
   list-style: inside;
@@ -653,9 +663,20 @@ list-style: inside;
   font-size: 15px;
 }
 .ul-p>li{margin-top:10px;}
+.no-dots{
+  list-style-type: none;
+}
 .hr-green {
   margin-top: 21px;
   margin-bottom: 21px;
   border: 0;
   border-top: 1.5px solid #00262c;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }

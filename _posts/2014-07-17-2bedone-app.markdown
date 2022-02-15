@@ -7,6 +7,26 @@ frontend: Angular | Ionic | Apollo | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
 persistence: Sqlite | TypeOrm
 deployment: Docker | Kubernetes | k3s
+description: Progressive Web App for tracking projects and tasks
+why: While getting on boarded to work the LazzTech hub app I relized that since it was alreadly to so far into development there would be aspects of this new stack I would not get exposure to so I decided to rebuild 2BeDone in the same stack to accelerate the onboarding increase my breadth of knowledge and experience in this new stack.
+whyBullets: <ul class="ul-p">
+  <li>Accelerate on boarding</li>
+  <li>expand my understanding of a new stack</li>
+  <li>learn about developing a dedicated cross platform experience</li>
+  </ul>
+challenges:
+challengesB1: <ul class="ul-p">
+  <li>aiming to quickly to complete the project while:</li>
+  <ul class="ul-p">
+  <li>working on the Lazztech Hub</li>
+  <li>Trying to differentiate it from the orignal</li>
+  </ul>
+  </ul>
+challengesB2: <ul class="ul-p">
+  <li>Learning the "gotchas" of Apollo and its state managment </li>
+  <li>The complexity learning configuring and learning GraphQL</li>
+  </ul>
+results: Once again learned a new tech stack and improved my overall skill and knowledge base. Moreover, in this process I found my preffered stack.
 layout: default
 modal-id: 2
 date: 2021-08-17
@@ -15,5 +35,4 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Progressive Web App for tracking projects and tasks
 ---
