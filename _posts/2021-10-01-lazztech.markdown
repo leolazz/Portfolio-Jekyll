@@ -1,14 +1,24 @@
 ---
 title: LazzTech Hub
 company: Lazztech LLC
-website: https://lazz.tech/product-announcement-lazztech-hub/
+website: https://lazz.tech/lazztech-hub-winter-updates/
 frontend: Angular | Ionic | Apollo | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
-persistence: Sqlite | TypeOrm
+persistence: PostgresSQL | Sqlite | TypeOrm
+deployment: Docker | Kubernetes | k3s
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 description: A geolocation-based social app
+work-involved:
+challenges: Being onboarded to a large established code base, in a tech stack I had no prior experience. Worked perf improvement feature to paginate in-app notfications. In the procces of implementing in-app pagination I implemented, and set a pattern for migrations using multiple database technologies with TypeORM. Additonally, streamlined the process for inviting friends, by inserting a new UUID column to a production database in a data safe way.
+challengesB1: <ul class="ul-p">
+  <li>Being onboarded to a large established code base, in a tech stack I had no prior experience.</li>
+  <ul class="ul-p">
+  <li></li>
+  <li></li>
+  </ul>
+  </ul>
 layout: default
 modal-id: 1
 date: October 2021 - Ongoing

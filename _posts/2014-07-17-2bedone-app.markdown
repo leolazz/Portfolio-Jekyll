@@ -12,7 +12,7 @@ why: While getting on boarded to work the LazzTech hub app I relized that since 
 whyBullets: <ul class="ul-p">
   <li>Accelerate on boarding</li>
   <li>expand my understanding of a new stack</li>
-  <li>learn about developing a dedicated cross platform experience</li>
+  <li>learn about designing a dedicated cross platform experience</li>
   </ul>
 challenges:
 challengesB1: <ul class="ul-p">
