@@ -22,8 +22,8 @@
       <div class="row">
       <h4 style="margin-top: 20px;" class="text-center">Why I Made this</h4>
       <hr class="hr-green">
-      <div class="col-lg-5 li-h5" >{{post.whyBullets}}</div>
-      <div class="col-lg-7" ><p >{{post.why}}</p></div>
+      <div class="col-lg-5  col-md-5 li-h5" >{{post.whyBullets}}</div>
+      <div class="col-lg-7 col-md-7" ><p >{{post.why}}</p></div>
     </div>
     {% endif %}
 
@@ -31,8 +31,8 @@
     <div class="row">
       <h4 class="text-center">Challenges & Work</h4>
       <hr class="hr-green">
-      <div class="col-lg-5 li-h5" ><p >{{post.challengesLazz}}</p></div>
-      <div class="col-lg-7" ><p >{{post.work}}</p></div>
+      <div class="col-lg-5 col-md-5 li-h5" ><p >{{post.challengesLazz}}</p></div>
+      <div class="col-lg-7 col-md-7" ><p >{{post.work}}</p></div>
     </div>
     {% endif %}
 
@@ -41,12 +41,12 @@
     <div class="row">
       <h4 class="text-center">Challenges & Constraints</h4>
       <hr class="hr-green">
-      <div class="col-lg-5 li-h5" ><p >{{post.challengesB1}}</p></div>
+      <div class="col-lg-5 li-h5 col-md-5" ><p >{{post.challengesB1}}</p></div>
       {% if post.challenges %}
       <div class="col-lg-7" ><p >{{post.challenges}}</p></div>
       {% endif %}
       {% if post.challengesB2 %}
-      <div class="col-lg-7 li-h5" ><p >{{post.challengesB2}}</p></div>
+      <div class="col-lg-7  col-md-7 li-h5" ><p >{{post.challengesB2}}</p></div>
       {% endif %}
     </div>
     {% endif %}
@@ -92,8 +92,8 @@
 
       </div>
       
-      <div id="center-list-small-screen">
-        <hr class="star-primary" />
+      <hr class="star-primary" />
+      <div >
         <h4 class="text-center"> 
           <a class="btn btn-primary btn-sm button-margin-mobile"  href="{{post.website}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
             ><p>website</p></a>
