@@ -5,7 +5,7 @@
     <div class="col-lg-10 col-lg-offset-1 ">
       <div class="modal-body">
         <h2 class="text-center"  style="word-wrap: break-word; white-space: normal">{{ post.title }}</h2>
-        <h3 class="text-center"></h3>
+        <hr class="hr-green">
         <h4 class="text-center">{{ post.description }}</h4>
         <hr class="star-primary" />
         <h4 class="text-center">Role: {{ post.role }}</h4>
@@ -62,7 +62,7 @@
           <h4 class="text-center">Stack Leveraged</h4>
           <hr class="hr-green">
           <div class="row">
-            <ul id="center-list-small-screen" class="list-inline stack-list item-details">
+            <ul class="list-inline stack-list item-details center-list-small-screen">
 
           {% if post.frontend %}
           <li>
@@ -95,10 +95,10 @@
       <div id="center-list-small-screen">
         <hr class="star-primary" />
         <h4 class="text-center"> 
-          <a class="btn btn-primary btn-sm"  href="{{post.website}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
+          <a class="btn btn-primary btn-sm button-margin-mobile"  href="{{post.website}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
             ><p>website</p></a>
             {% if post.backendUrl %}
-            <a class="btn btn-primary btn-sm" href="{{post.backendUrl}}" target="_blank" rel="noopener noreferrer"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+            <a class="btn btn-primary btn-sm button-margin-mobile" href="{{post.backendUrl}}" target="_blank" rel="noopener noreferrer"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
               > <p>Backend</p></a>
               {% endif %}
           {% if post.frontendUrl %}
@@ -106,7 +106,7 @@
             ><p>Frontend</p></a>
           {% endif %}
           {% if post.singleRepo %}
-          <a class="btn btn-primary btn-sm"  href="{{post.singleRepo}}" target="_blank" rel="noopener noreferrer"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+          <a class="btn btn-primary btn-sm button-margin-mobile"  href="{{post.singleRepo}}" target="_blank" rel="noopener noreferrer"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
             ><p>Mono-Repo</p></a>
           {% endif %}</h4>
         </div>

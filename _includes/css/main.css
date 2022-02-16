@@ -472,13 +472,28 @@ footer .footer-below {
 }
 
 @media(max-width:1636px) {
-#center-list-small-screen {
+.center-list-small-screen {
   text-align: center;
   list-style: inside;
-  padding-right: 5%;
 
 }
 }
+
+  #center-list-small-screen {
+    text-align: center;
+    list-style: inside;
+    padding-right: 5%;
+    list-style-type: none;
+  
+  }
+@media(min-width:1200px) {
+  #center-list-small-screen {
+    text-align: center;
+    list-style: inside;
+    padding-right: 10%;
+  
+  }
+  }
 
 .stack-list {
   text-align: center;
@@ -586,12 +601,13 @@ line-height: 45px;
 }
 }
 
-@media (max-width: 471px)  {  
+@media (max-width: 521px)  {  
 .button-margin-mobile
 {
   margin-top: 5px;
 }
 }
+
 /* A large grid might need four columns on widescreen layouts */
 /* @media (min-width: 1380px) {
 .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
