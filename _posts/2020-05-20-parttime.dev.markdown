@@ -11,9 +11,9 @@ role: Sole Developer
 description: A job board for developers & related fields to find part time work opportunities
 why: For my first project I used a simple, contrived idea in order to allow me to focus on the actual development process and patterns. Nonetheless, I spent much more time than was nessacary on the front-end design. Therefore, I wanted to tackle a more complex backend domain challenge, and limit myself to a simple front-end design.
 whyBullets: <ul class="ul-p">
-  <li>Rapidly learn a entirely new stack</li>
+  <li>immersively learn a entirely new stack</li>
   <li>Focus on a greater backend domain challenge</li>
-  <li>Created a simple frontend focused soley on the business domain</li>
+  <li>Created a simple frontend focused solely on the business domain</li>
   </ul>
 challenges:
 challengesB1: <ul class="ul-p">
@@ -27,7 +27,7 @@ challengesB1: <ul class="ul-p">
 challengesB2: <ul class="ul-p">
   <li>Learning to traverse the DOM using a headless browser</li>
   <li>Making a stable, lightweight, and fast CRUD operation for deployment on a limited resource environment</li>
-  <li>Dockerizing and deploying the backend with an instance of chromemium into a kubernetes cluster</li>
+  <li>Dockerize and deploying the backend with an instance of chromium into a kubernetes cluster</li>
   </ul>
 results: In addition to learning a new stack, becoming more capable and comfortable in it than my original I improved my mental model of the DOM in order to traverse it in a headless enviroment and greatly improved my skill level in Dev-Ops technologies like <strong>Docker</strong> and <strong>Kubernetes</strong>.
 layout: default
