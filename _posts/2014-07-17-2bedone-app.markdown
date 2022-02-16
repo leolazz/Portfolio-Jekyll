@@ -7,6 +7,7 @@ frontend: Angular | Ionic | Apollo | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
 persistence: Sqlite | TypeOrm
 deployment: Docker | Kubernetes | k3s
+role: Sole Developer
 description: Progressive Web App for tracking projects and tasks
 why: While getting on boarded to work the LazzTech hub app I relized that since it was alreadly to so far into development there would be aspects of this new stack I would not get exposure to so I decided to rebuild 2BeDone in the same stack to accelerate the onboarding increase my breadth of knowledge and experience in this new stack.
 whyBullets: <ul class="ul-p">

@@ -6,6 +6,7 @@ frontend: MVC 5 | Razor Pages | C#
 backend: .NET CORE 5 | C# | Xunit
 persistence: Sqlite | Entity Framework
 deployment: Docker | Kubernetes | k3s
+role: Sole Developer
 description: Online platform for tracking projects and tasks
 why: After spending hundreds of hours watching course lectures, working through example, and challenges projects, I wanted to create something on my own seperate from any guided material. Since I wasn't confident with my skill level at the time I decided to use a contrived project idea. Moreover, this way I could start immediately, focusing more on the development proccess and larger patterns. Rather than, having an extended planning and design phase that would could result from more orignal idea.
 whyBullets: <ul class="ul-p">

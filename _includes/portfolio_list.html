@@ -5,8 +5,11 @@
     <div class="col-lg-10 col-lg-offset-1 ">
       <div class="modal-body">
         <h2 class="text-center"  style="word-wrap: break-word; white-space: normal">{{ post.title }}</h2>
-        <h3 class="text-center">{{post.company}}</h3>
+        <h3 class="text-center"></h3>
+        <h4 class="text-center">{{ post.description }}</h4>
         <hr class="star-primary" />
+        <h4 class="text-center">Role: {{ post.role }}</h4>
+        
         <a href="{{post.website}}" target="_blank" rel="noopener noreferrer"> 
         <img
           src="img/portfolio/{{ post.img }}"
@@ -14,12 +17,7 @@
           alt="{{ post.alt }}"
         />
       </a>
-      <div class="col-lg-12">
-      <div class="col-lg-5"><h4 class="text-center">{{ post.description }}</h4></div>
-      <div class="col-lg-2 hide-small-screen"><h1 class="text-center hide-small-screen">|</h1></div>
-      <div class="col-lg-5"><h4 class="text-center">Role: {{ post.role }}</h4></div>
-    </div>
-        <hr class="hr-green">
+
       {% if post.why %}
       <div class="row">
       <h4 style="margin-top: 20px;" class="text-center">Why I Made this</h4>

@@ -7,10 +7,11 @@ backend: Nestjs | Node | GraphQL | TypeScript
 persistence: PostgresSQL | Sqlite | TypeOrm
 deployment: Docker | Kubernetes | k3s
 project-date: April 2014
+role: Junior Developer
 client: Start Bootstrap
 category: Web Development
-description: A geolocation-based social app
-work: Being onboarded posed a number of challenges due it being a large established code base and in a tech stack I had no prior experience. Although, I was able work a performance improvement feature to paginate in-app notfications. Thereafter, in the process of adding a feature to streamline the process for inviting friends I impletmented and set a pattern for migrations using multiple database technologies with TypeORM. This included rolling the update in a date safe way to the production database.
+description: geolocation-based social app
+work: Onboarding posed a number of challenges due to the large established code base and the lack of any prior experience. Although, I was able work a performance improvement feature to paginate in-app notfications. Thereafter, in the process of adding a feature to streamline the process for inviting friends I impletmented and set a pattern for migrations using multiple database technologies with TypeORM. This included rolling the update in a date safe way to the production database.
 challengesLazz: <ul class="ul-p">
   <li>Onboarding:</li>
   <ul class="ul-p">

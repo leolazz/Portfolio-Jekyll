@@ -7,6 +7,7 @@ frontend: React | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
 persistence: PostgresSQL | TypeOrm
 deployment: Docker | Kubernetes | k3s
+role: Sole Developer
 description: A job board for developers & related fields to find part time work opportunities
 why: For my first project I used a simple, contrived idea in order to allow me to focus on the actual development process and patterns. Nonetheless, I spent much more time than was nessacary on the front-end design. Therefore, I wanted to tackle a more complex backend domain challenge, and limit myself to a simple front-end design.
 whyBullets: <ul class="ul-p">
