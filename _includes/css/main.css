@@ -494,7 +494,12 @@ footer .footer-below {
   
   }
   }
-
+  @media(min-width:1200px) {
+    #margin-list-resume {
+      padding-right: 5%;
+    
+    }
+    }
 .stack-list {
   text-align: center;
   list-style: inside;
