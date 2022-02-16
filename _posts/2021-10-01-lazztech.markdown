@@ -11,7 +11,7 @@ role: Junior Developer
 client: Start Bootstrap
 category: Web Development
 description: geolocation-based social app
-work: Onboarding posed a number of challenges due to the large established code base and the lack of any prior experience. Although, I was able work a performance improvement feature to paginate in-app notfications. Thereafter, in the process of adding a feature to streamline the process for inviting friends I impletmented and set a pattern for migrations using multiple database technologies with TypeORM. This included rolling the update in a date safe way to the production database.
+work: Onboarding posed a number of challenges due to the large established code base and the lack of any prior experience. Quickly though, I implemented a performance improvement feature to paginate in-app notifications. Thereafter, in the process of adding a feature to streamline the process of inviting friends, I implemented migrations, and set a pattern for future migrations using multiple database technologies with TypeORM. This included rolling the update in a date safe way to the production database.
 challengesLazz: <ul class="ul-p">
   <li>Onboarding:</li>
   <ul class="ul-p">
@@ -20,9 +20,9 @@ challengesLazz: <ul class="ul-p">
   </ul>
   <li>Tackling features that required altering a production database </li>
   <li>Working with multiple database technologies</li>
-  <li>Multiple dev/deployment enviroments with extended build times</li>
+  <li>Multiple dev/deployment environments with extended build times</li>
   </ul>
-results: Completed first onboarding proccess, while learning a new stack. Contributed meaningful improvements to backend & frontend code base. Gained experience working collabratively, and greatly increased confidence my skill level.
+results: Completed my first onboarding process, while learning a new stack. Contributed meaningful improvements to backend & frontend code base. Gained experience working collaboratively, and greatly increased confidence in my skill level.
 layout: default
 modal-id: 1
 date: October 2021 - Ongoing

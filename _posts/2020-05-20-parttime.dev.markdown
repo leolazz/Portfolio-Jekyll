@@ -12,12 +12,12 @@ description: A job board for developers & related fields to find part time work 
 why: For my first project I used a simple, contrived idea in order to allow me to focus on the actual development process and patterns. Nonetheless, I spent much more time than was nessacary on the front-end design. Therefore, I wanted to tackle a more complex backend domain challenge, and limit myself to a simple front-end design.
 whyBullets: <ul class="ul-p">
   <li>Rapidly learn a entirely new stack</li>
-  <li>Focus on a greater backend domain challange</li>
+  <li>Focus on a greater backend domain challenge</li>
   <li>Created a simple frontend focused soley on the business domain</li>
   </ul>
 challenges:
 challengesB1: <ul class="ul-p">
-  <li>changing dev enviroment from PC to Mac and from visual studio to VS code</li>
+  <li>changing dev environment from PC to Mac and from visual studio to VS code</li>
   <li>Learning about device and browser fingerprints in order to</li>
   <ul>
   <li>Avoid bot detection, without any paid services</li>
@@ -26,7 +26,7 @@ challengesB1: <ul class="ul-p">
   </ul>
 challengesB2: <ul class="ul-p">
   <li>Learning to traverse the DOM using a headless browser</li>
-  <li>Making a stable, lightweight, and fast CRUD operation for deployment on a limited resource enviroment</li>
+  <li>Making a stable, lightweight, and fast CRUD operation for deployment on a limited resource environment</li>
   <li>Dockerizing and deploying the backend with an instance of chromemium into a kubernetes cluster</li>
   </ul>
 results: In addition to learning a new stack, becoming more capable and comfortable in it than my original I improved my mental model of the DOM in order to traverse it in a headless enviroment and greatly improved my skill level in Dev-Ops technologies like <strong>Docker</strong> and <strong>Kubernetes</strong>.

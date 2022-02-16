@@ -8,27 +8,25 @@ persistence: Sqlite | Entity Framework
 deployment: Docker | Kubernetes | k3s
 role: Sole Developer
 description: Online platform for tracking projects and tasks
-why: After spending hundreds of hours watching course lectures, working through example, and challenges projects, I wanted to create something on my own seperate from any guided material. Since I wasn't confident with my skill level at the time I decided to use a contrived project idea. Moreover, this way I could start immediately, focusing more on the development proccess and larger patterns. Rather than, having an extended planning and design phase that would could result from more orignal idea.
+why: After spending hundreds of hours watching course lectures, working through examples, and challenge projects, I wanted to create something on my own separate from any guided material. Since I wasn't confident with my skill level at the time I decided to use a contrived project idea. Moreover, this way I could start immediately, focusing more on the development process and larger patterns. Rather than having an extended planning and design phase that would result from a more original idea.
 whyBullets: <ul class="ul-p">
   <li>exercise skills & knowledge from various courses</li>
   <li>serve as a cumulative demonstration of knowledge and ability at the time</li>
-  <li>Learn addittional skills, while solidifying prior learning</li>
+  <li>Learn additional skills, while solidifying prior learning</li>
   <li>break out of hand holding learning process of courses</li>
   </ul>
 challengesB1: <ul class="ul-p">
-  <li>Beginner level experience and knowledge</li>
-  <li>Working to complete project quickly while solidifying new information.</li>
-  <li>Not getting lost in the minutiae of less relevant aspects.</li>
+
   </ul>
 challengesB2: <ul class="ul-p">
   <li>Learning and adhering to S.O.L.I.D. principles</li>
-  <li>unforseen exposure and dificulting of rapidly learning:</li>
+  <li>Difficulty of rapidly learning:</li>
   <ul class="ul-p">
   <li>docker and dockerizing the application</li>
   <li>Kubernetes and deployment</li>
   </ul>
   </ul>
-results: Solidified prior lessions, learned  Dev-Ops technologies, greatly increased confidence in skill level, and gained a clearer understanding of the reality of software development.
+results: Solidified prior lessons, learned  Dev-Ops technologies, greatly increased confidence in skill level, and gained a clearer understanding of the reality of software development.
 modal-id: 4
 date: 2014-07-16
 img: 2bedone.png

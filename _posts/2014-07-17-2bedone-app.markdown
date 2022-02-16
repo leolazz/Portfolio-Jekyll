@@ -9,7 +9,7 @@ persistence: Sqlite | TypeOrm
 deployment: Docker | Kubernetes | k3s
 role: Sole Developer
 description: Progressive Web App for tracking projects and tasks
-why: While getting on boarded to work the LazzTech hub app I relized that since it was alreadly to so far into development there would be aspects of this new stack I would not get exposure to so I decided to rebuild 2BeDone in the same stack to accelerate the onboarding increase my breadth of knowledge and experience in this new stack.
+why: While getting on boarded to work the LazzTech hub app I realized that since it was already to so far into development there would be aspects of this new stack I would not get exposure to so I decided to rebuild 2BeDone in the same stack to accelerate the onboarding increase my breadth of knowledge and experience in this new stack.
 whyBullets: <ul class="ul-p">
   <li>Accelerate on boarding to lazztech hub</li>
   <li>expand my understanding of a new stack</li>
@@ -20,18 +20,18 @@ challengesB1: <ul class="ul-p">
   <li>aiming to quickly to complete the project while:</li>
   <ul class="ul-p">
   <li>working on the Lazztech Hub</li>
-  <li>Trying to differentiate it from the orignal</li>
+  <li>Trying to differentiate it from the original</li>
   </ul>
   </ul>
 challengesB2: <ul class="ul-p">
   <li>Learning the nuances and complexity of:</li>
   <ul class="ul-p">
-  <li>Configuration and utlization of GraphQL</li>
+  <li>Configuration and utilization of GraphQL</li>
   <li>integrating apollo and its state management</li>
   </ul>
   <li>Monolithic size of Angular at first exposure</li>
   </ul>
-results: Increased overall skill and knowledge base in a new tech stack while accelerating my onboarding process to the LazzTech Hub. Moreover, in this process I found my preffered stack.
+results: Increased overall skill and knowledge base in a new tech stack while accelerating my onboarding process to the LazzTech Hub. Moreover, in this process I found my preferred stack.
 layout: default
 modal-id: 2
 date: 2021-08-17
