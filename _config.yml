@@ -2,9 +2,9 @@
 title: Leo Lazzarini
 email: contac@leolazz.tech
 url: https://leolazz.tech
-description: 'Full Stack Software Developer. Typescript | Angluar | Ionic | React | C# | Javascript | NestJs | Docker | Kubernetes'
-keywords: 'Software, Developer, SDE, Typescript, Angluar, Ionic, React, C#, Javascript, NestJs, Docker, Kubernetes'
-skills: 'Full Stack Developer - Sales'
+description: 'Full Stack Software Developer. Typescript | Angular | Ionic | React | C# | Javascript | NestJs | Docker | Kubernetes'
+keywords: 'Software, Developer, SDE, Typescript, Angular, Ionic, React, C#, Javascript, NestJs, Docker, Kubernetes'
+skills: 'Full Stack Developer & Sales'
 meta_author: Lazzarini Leo
 
 # Google webmaster tools
@@ -53,7 +53,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Seattle WA
+  - line: Bellevue, WA
 
 # Credits content
 

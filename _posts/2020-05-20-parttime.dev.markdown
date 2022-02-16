@@ -8,12 +8,12 @@ backend: Nestjs | Node | GraphQL | TypeScript
 persistence: PostgresSQL | TypeOrm
 deployment: Docker | Kubernetes | k3s
 role: Sole Developer
-description: A job board for developers & related fields to find part time work opportunities
-why: For my first project I used a simple, contrived idea in order to allow me to focus on the actual development process and patterns. Nonetheless, I spent much more time than was nessacary on the front-end design. Therefore, I wanted to tackle a more complex backend domain challenge, and limit myself to a simple front-end design.
+description: A part-time work job board for developers & related fields
+why: For my first project I used a simple, contrived idea in order to allow me to focus on the actual development process and patterns. Nonetheless, to much time was spent on the front-end design. I was left wanting a more complex backend domain challenge, and  aimed to limit myself to a simple front-end design.
 whyBullets: <ul class="ul-p">
-  <li>immersively learn a entirely new stack</li>
-  <li>Focus on a greater backend domain challenge</li>
-  <li>Created a simple frontend focused solely on the business domain</li>
+  <li>immersively & rapidly learn a entirely new stack</li>
+  <li>Tackle a more complex backend domain challenge</li>
+  <li>Limit myself to simple frontend focused solely on the business domain</li>
   </ul>
 challenges:
 challengesB1: <ul class="ul-p">
@@ -26,10 +26,10 @@ challengesB1: <ul class="ul-p">
   </ul>
 challengesB2: <ul class="ul-p">
   <li>Learning to traverse the DOM using a headless browser</li>
-  <li>Making a stable, lightweight, and fast CRUD operation for deployment on a limited resource environment</li>
+  <li>optimizing the scraping C.R.U.D. operation to be stable, lightweight, and fast in a deployment on a limited resource environment </li>
   <li>Dockerize and deploying the backend with an instance of chromium into a kubernetes cluster</li>
   </ul>
-results: In addition to learning a new stack, becoming more capable and comfortable in it than my original I improved my mental model of the DOM in order to traverse it in a headless enviroment and greatly improved my skill level in Dev-Ops technologies like <strong>Docker</strong> and <strong>Kubernetes</strong>.
+results: In addition to learning a new stack, becoming more capable and comfortable in it than my original I improved my mental model of the DOM in order to traverse it in a headless environment and greatly improved my skill level in Dev-Ops technologies like <strong>Docker</strong> and <strong>Kubernetes</strong>.
 layout: default
 modal-id: 2
 date: 2021-09-15

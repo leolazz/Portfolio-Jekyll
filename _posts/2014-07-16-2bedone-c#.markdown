@@ -8,7 +8,7 @@ persistence: Sqlite | Entity Framework
 deployment: Docker | Kubernetes | k3s
 role: Sole Developer
 description: Online platform for tracking projects and tasks
-why: After spending hundreds of hours watching course lectures, working through examples, and challenge projects, I wanted to create something on my own separate from any guided material. Since I wasn't confident with my skill level at the time I decided to use a contrived project idea. Moreover, this way I could start immediately, focusing more on the development process and larger patterns. Rather than having an extended planning and design phase that would result from a more original idea.
+why: After spending hundreds of hours watching course lectures, working through examples, and challenge projects, I wanted to create something on my own separate from any guided material. Since I wasn't confident with my skill level at the time I decided to use a contrived project idea. This allowed me to start immediately and focus more on the development process and larger patterns. Rather than having an extended planning and design phase that would result from a more original idea.
 whyBullets: <ul class="ul-p">
   <li>exercise skills & knowledge from various courses</li>
   <li>serve as a cumulative demonstration of knowledge and ability at the time</li>
@@ -22,7 +22,7 @@ challengesB1: <ul class="ul-p">
   </ul>
 challengesB2: <ul class="ul-p">
   <li>Learning and adhering to S.O.L.I.D. principles</li>
-  <li>Difficulty of rapidly learning:</li>
+  <li>rapidly learning:</li>
   <ul class="ul-p">
   <li>docker and and how to dockerize the application</li>
   <li>Kubernetes and deployment</li>
