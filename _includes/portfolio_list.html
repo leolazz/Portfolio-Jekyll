@@ -24,17 +24,30 @@
       <div class="col-lg-7" ><p >{{post.why}}</p></div>
     </div>
     {% endif %}
+
+    {% if post.challengesLazz %}
+    <div class="row">
+      <h4 class="text-center">Challenges & Work</h4>
+      <hr class="hr-green">
+      <div class="col-lg-5 li-h5" ><p >{{post.challengesLazz}}</p></div>
+      <div class="col-lg-7" ><p >{{post.work}}</p></div>
+    </div>
+    {% endif %}
+
     
+    {% if post.challengesB1 %}
     <div class="row">
       <h4 class="text-center">Challenges & Constraints</h4>
       <hr class="hr-green">
-      {% if post.challengesB1 %}
       <div class="col-lg-5 li-h5" ><p >{{post.challengesB1}}</p></div>
-      {% endif %}
       {% if post.challenges %}
       <div class="col-lg-7" ><p >{{post.challenges}}</p></div>
       {% endif %}
+      {% if post.challengesB2 %}
+      <div class="col-lg-7 li-h5" ><p >{{post.challengesB2}}</p></div>
+      {% endif %}
     </div>
+    {% endif %}
 
     <div class="row">
       <h4 style="margin-top: 10px;" class="text-center">Results</h4>

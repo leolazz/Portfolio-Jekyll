@@ -10,15 +10,18 @@ project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 description: A geolocation-based social app
-work-involved:
-challenges: Being onboarded to a large established code base, in a tech stack I had no prior experience. Worked perf improvement feature to paginate in-app notfications. In the procces of implementing in-app pagination I implemented, and set a pattern for migrations using multiple database technologies with TypeORM. Additonally, streamlined the process for inviting friends, by inserting a new UUID column to a production database in a data safe way.
-challengesB1: <ul class="ul-p">
-  <li>Being onboarded to a large established code base, in a tech stack I had no prior experience.</li>
+work: Being onboarded posed a number of challenges due it being a large established code base and in a tech stack I had no prior experience. Although, I was able work a performance improvement feature to paginate in-app notfications. Thereafter, in the process of adding a feature to streamline the process for inviting friends I impletmented and set a pattern for migrations using multiple database technologies with TypeORM. This included rolling the update in a date safe way to the production database.
+challengesLazz: <ul class="ul-p">
+  <li>Onboarding:</li>
   <ul class="ul-p">
-  <li></li>
-  <li></li>
+  <li>Large established code base</li>
+  <li>new tech stack</li>
   </ul>
+  <li>Tackling features that required altering a production database </li>
+  <li>Working with multiple database technologies</li>
+  <li>Multiple dev/deployment enviroments with extended build times</li>
   </ul>
+results: Completed first onboarding proccess, while learning a new stack. Contributed meaningful improvements to backend & frontend code base. Gained experience working collabratively, and greatly increased confidence my skill level.
 layout: default
 modal-id: 1
 date: October 2021 - Ongoing
