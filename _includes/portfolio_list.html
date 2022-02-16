@@ -91,26 +91,25 @@
         </ul >
 
       </div>
-
-        <hr class="star-primary">
-
-
+      
+      <div id="center-list-small-screen">
+        <hr class="star-primary" />
         <h4 class="text-center"> 
           <a class="btn btn-primary btn-sm"  href="{{post.website}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
             ><p>website</p></a>
-        
+            {% if post.backendUrl %}
+            <a class="btn btn-primary btn-sm" href="{{post.backendUrl}}" target="_blank" rel="noopener noreferrer"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
+              > <p>Backend</p></a>
+              {% endif %}
           {% if post.frontendUrl %}
           <a class="btn btn-primary btn-sm button-margin-mobile" href="{{post.frontendUrl}}" target="_blank" rel="noopener noreferrer"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
             ><p>Frontend</p></a>
-          {% endif %}
-          {% if post.backendUrl %}
-          <a class="btn btn-primary btn-sm" href="{{post.backendUrl}}" target="_blank" rel="noopener noreferrer"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
-            > <p>Backend</p></a>
           {% endif %}
           {% if post.singleRepo %}
           <a class="btn btn-primary btn-sm"  href="{{post.singleRepo}}" target="_blank" rel="noopener noreferrer"><i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
             ><p>Mono-Repo</p></a>
           {% endif %}</h4>
+        </div>
         </div>
         </div>
       </div>
