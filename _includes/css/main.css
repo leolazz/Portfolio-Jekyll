@@ -494,12 +494,23 @@ footer .footer-below {
   
   }
   }
-  @media(min-width:1200px) {
-    #margin-list-resume {
-      padding-right: 5%;
-    
-    }
-    }
+
+  .no-dots-resume{
+    list-style-type: none;
+    padding-right: 5%;
+  }
+@media(min-width:1200px) {
+  .no-dots-resume{
+    list-style-type: none;
+    padding-right: 5%;
+  }
+  }
+@media(max-width:670px) {
+  .no-dots-resume{
+    list-style-type: none;
+    padding-right: 5%;
+  }
+}
 .stack-list {
   text-align: center;
   list-style: inside;
