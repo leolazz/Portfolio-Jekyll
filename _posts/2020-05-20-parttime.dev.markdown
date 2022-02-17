@@ -5,11 +5,11 @@ frontendUrl: https://github.com/leolazz/parttimedev-frontend
 website: https://parttimedev.lazz.tech/
 frontend: React | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
-persistence: PostgresSQL | TypeOrm
+persistence: PostgresSQL | TypeORM
 deployment: Docker | Kubernetes | k3s
 role: Sole Developer
 description: A part-time work job board for developers & related fields
-why: For my first project I used a simple, contrived idea in order to allow me to focus on the actual development process and patterns. Nonetheless, to much time was spent on the front-end design. I was left wanting a more complex backend domain challenge, and  aimed to limit myself to a simple front-end design.
+why: For this project I was seeking a more robust and complex backend domain challenge that could actually become usable product for the target audience, rather than just throw away project. I aimed to create a front end that felt responsive, streamlined, and focused only on the business domain.
 whyBullets: <ul class="ul-p">
   <li>immersively & rapidly learn a entirely new stack</li>
   <li>Tackle a more complex backend domain challenge</li>
@@ -29,10 +29,10 @@ challengesB2: <ul class="ul-p">
   <li>optimizing the scraping C.R.U.D. operation to be stable, lightweight, and fast in a deployment on a limited resource environment </li>
   <li>Dockerize and deploying the backend with an instance of chromium into a kubernetes cluster</li>
   </ul>
-results: In addition to learning a new stack, becoming more capable and comfortable in it than my original I improved my mental model of the DOM in order to traverse it in a headless environment and greatly improved my skill level in Dev-Ops technologies like <strong>Docker</strong> and <strong>Kubernetes</strong>.
+results: In addition to learning a new stack, becoming more capable and comfortable in it than my original, I improved my mental model of the DOM in order to traverse it in a headless environment, and greatly improved my skill level in Dev-Ops technologies like <strong>Docker</strong> and <strong>Kubernetes</strong>.
 layout: default
-modal-id: 2
-date: 2021-09-15
+modal-id: 3
+date: 2021-05-15
 img: parttimedev.png
 alt: image-alt
 project-date: April 2014

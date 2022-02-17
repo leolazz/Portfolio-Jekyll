@@ -24,13 +24,13 @@ challengesB2: <ul class="ul-p">
   <li>Learning and adhering to S.O.L.I.D. principles</li>
   <li>rapidly learning:</li>
   <ul class="ul-p">
-  <li>docker and and how to dockerize the application</li>
+  <li>docker and how to dockerize the application</li>
   <li>Kubernetes and deployment</li>
   </ul>
   </ul>
-results: Solidified prior lessons, learned  Dev-Ops technologies, greatly increased confidence in skill level, and gained a clearer understanding of the reality of software development.
+results: Solidified lessons from months of courses, learned  Dev-Ops technologies, greatly increased confidence in skill level, and gained a clearer understanding of the reality of software development.
 modal-id: 4
-date: 2014-07-16
+date: 2014-08-16
 img: 2bedone.png
 project-date: April 2014
 category: Web Development

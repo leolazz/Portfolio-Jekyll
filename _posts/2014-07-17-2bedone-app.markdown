@@ -5,7 +5,7 @@ frontendUrl: https://github.com/leolazz/2bdone-PWA-frontend
 website: https://2bedone-pwa.lazz.tech/tabs/home
 frontend: Angular | Ionic | Apollo | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
-persistence: Sqlite | TypeOrm
+persistence: Sqlite | TypeORM
 deployment: Docker | Kubernetes | k3s
 role: Sole Developer
 description: Progressive Web App for tracking projects and tasks
@@ -31,10 +31,10 @@ challengesB2: <ul class="ul-p">
   </ul>
   <li>Monolithic size of Angular at first exposure</li>
   </ul>
-results: Increased overall skill and knowledge base in a new tech stack while accelerating the onboarding process to the LazzTech Hub. Moreover, in this process I found my preferred stack.
+results: Increased overall skill and knowledge base in a new tech stack while accelerating the onboarding process to the LazzTech Hub, and in the process found my preferred stack.
 layout: default
 modal-id: 2
-date: 2021-08-17
+date: 2021-07-17
 img: 2bedonepwa.png
 alt: image-alt
 project-date: April 2014

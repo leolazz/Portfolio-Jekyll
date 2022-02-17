@@ -4,14 +4,14 @@ company: Lazztech LLC
 website: https://lazz.tech/lazztech-hub-winter-updates/
 frontend: Angular | Ionic | Apollo | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
-persistence: PostgresSQL | Sqlite | TypeOrm
+persistence: PostgresSQL | Sqlite | TypeORM
 deployment: Docker | Kubernetes | k3s
 project-date: April 2014
 role: Co-Developer
 client: Start Bootstrap
 category: Web Development
 description: geolocation-based social app
-work: My first time working collaboratively and onboarding posed a number of challenges due to the large established code base and the lack of any prior experience in it. Quickly though, I implemented a performance improvement feature to paginate in-app notifications. Thereafter, in the process of adding a feature to streamline the process of inviting friends, I implemented migrations, and set a pattern for future migrations using multiple database technologies with TypeORM. This included rolling the update in a date safe way to the production database.
+work: My first time working collaboratively and onboarding posed a number of challenges due to the large established code base and the lack of any prior experience in it. Quickly though, I implemented a performance improvement feature to paginate in-app notifications. Thereafter, in the process of adding a feature to streamline inviting friends, I implemented migrations, and set a pattern for future migrations using multiple database technologies with TypeORM. This included rolling the update in a date safe way to the production database.
 challengesLazz: <ul class="ul-p">
   <li>Onboarding:</li>
   <ul class="ul-p">
@@ -22,7 +22,7 @@ challengesLazz: <ul class="ul-p">
   <li>Multiple dev/deployment environments with extended build times</li>
   <li>Tackling features that required altering a production database </li>
   </ul>
-results: Completed my first onboarding process, while learning a new stack. Contributed meaningful improvements to backend & frontend code base. Gained experience working collaboratively, and greatly increased confidence in my skill level.
+results: Gained experience working collaboratively and completed my first onboarding process, while learning a new stack. Contributed meaningful improvements to backend & frontend code base, and greatly increased confidence in my skill level.
 layout: default
 modal-id: 1
 date: October 2021 - Ongoing
