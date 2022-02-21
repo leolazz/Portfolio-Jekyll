@@ -31,7 +31,7 @@ challengesB2: <ul class="ul-p">
   </ul>
   <li>Monolithic size of Angular at first exposure</li>
   </ul>
-results: Increased overall skill and knowledge base in a new tech stack while accelerating the onboarding process to the LazzTech Hub, and in the process found my preferred stack.
+results: Increased overall skill and knowledge base in a new tech stack while accelerating the onboarding process to the Lazztech Hub, and in the process found my preferred stack.
 layout: default
 modal-id: 2
 date: 2021-07-17
