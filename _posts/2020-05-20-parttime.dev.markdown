@@ -4,15 +4,16 @@ backendUrl: https://github.com/leolazz/parttimedev-backend
 frontendUrl: https://github.com/leolazz/parttimedev-frontend
 website: https://parttimedev.lazz.tech/
 frontend: React | TypeScript
-backend: Nestjs | Node | GraphQL | TypeScript
+backend: Nestjs | Node | GraphQL | TypeScript | Puppeteer
 persistence: PostgresSQL | TypeORM
 deployment: Docker | Kubernetes | k3s | NGINX
 role: Sole Developer
-description: A part-time work job board for developers & related fields
-why: For this project I was seeking a more robust and complex backend domain challenge that could actually become usable a product for the target audience, rather than just throw away a project. I aimed to create a front end that felt responsive, streamlined, and focused only on the business domain.
+description: A part-time work job board for developers & related fields with aggregated results scraped from a popular job listing site
+why: I had become interested in web scraping and for this project I was seeking a more robust and complex backend domain challenge that had real potential as a usable product. I also had a goal of creating a front end that felt responsive, streamlined, and focused only on the business domain.
 whyBullets: <ul class="ul-p">
   <li>immersively & rapidly learn a entirely new stack</li>
   <li>Tackle a more complex backend domain challenge</li>
+  <li>Learn web scraping</li>
   <li>Limit myself to simple frontend focused solely on the business domain</li>
   </ul>
 challenges:

@@ -11,7 +11,7 @@ role: Co-Developer
 client: Start Bootstrap
 category: Web Development
 description: geolocation-based social app
-work: My first time working collaboratively and onboarding posed a number of challenges due to the large established code base and the lack of any prior experience in it. Quickly though, I implemented a performance improvement feature to paginate in-app notifications. Thereafter, in the process of adding a feature to streamline inviting friends, I implemented migrations, and set a pattern for future migrations using multiple database technologies with TypeORM. This included rolling the update in a data safe way to the production database.
+work: My first time working collaboratively and onboarding posed a number of challenges due to the large established code base and the lack of any prior experience in it. Quickly though, I implemented a performance improvement feature to paginate in-app notifications. Thereafter, in the process of adding a feature to streamline inviting friends, I implemented migrations, and set a pattern for future migrations using multiple database technologies with TypeORM. I then used this pattern to backfill production data.
 challengesLazz: <ul class="ul-p">
   <li>Onboarding:</li>
   <ul class="ul-p">
