@@ -9,7 +9,7 @@ persistence: Sqlite | TypeORM
 deployment: Docker | Kubernetes | k3s
 role: Sole Developer
 description: Progressive Web App for tracking projects and tasks
-why: While getting on boarded to work the Lazztech hub app I realized that since it was already to so far into development there would be aspects of this new stack I would not get exposure to. I decided to rebuild 2BeDone in this new stack to accelerate the onboarding and increase my breadth of knowledge and experience in this new stack.
+why: While getting on boarded to work the Lazztech hub app I realized that since it was already to so far into development there would be aspects of this new stack I would not get exposure to. I decided to rebuild 2BeDone in this new stack to accelerate the onboarding and increase my breadth of knowledge in this new stack.
 whyBullets: <ul class="ul-p">
   <li>Accelerate on boarding to lazztech hub</li>
   <li>expand my understanding of a new stack</li>
