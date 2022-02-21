@@ -6,7 +6,7 @@ website: https://2bedone-pwa.lazz.tech/tabs/home
 frontend: Angular | Ionic | Apollo | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
 persistence: Sqlite | TypeORM
-deployment: Docker | Kubernetes | k3s
+deployment: Docker | Kubernetes | k3s | NGINX
 role: Sole Developer
 description: Progressive Web App for tracking projects and tasks
 why: While getting on boarded to work the Lazztech hub app I realized that since it was already to so far into development there would be aspects of this new stack I would not get exposure to. I decided to rebuild 2BeDone in this new stack to accelerate the onboarding and increase my breadth of knowledge in this new stack.

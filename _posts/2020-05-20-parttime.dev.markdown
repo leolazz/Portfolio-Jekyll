@@ -6,7 +6,7 @@ website: https://parttimedev.lazz.tech/
 frontend: React | TypeScript
 backend: Nestjs | Node | GraphQL | TypeScript
 persistence: PostgresSQL | TypeORM
-deployment: Docker | Kubernetes | k3s
+deployment: Docker | Kubernetes | k3s | NGINX
 role: Sole Developer
 description: A part-time work job board for developers & related fields
 why: For this project I was seeking a more robust and complex backend domain challenge that could actually become usable a product for the target audience, rather than just throw away a project. I aimed to create a front end that felt responsive, streamlined, and focused only on the business domain.
