@@ -17,8 +17,8 @@ whyBullets: <ul class="ul-p">
   </ul>
 challengesB1: <ul class="ul-p">
   <li>Beginner level experience and knowledge</li>
-  <li>Working to complete project quickly while solidifying new information.</li>
-  <li>Not getting lost in the minutiae of less relevant aspects.</li>
+  <li>Working to complete the project quickly while solidifying new information</li>
+  <li>Not getting lost in the minutiae of less relevant aspects</li>
   </ul>
 challengesB2: <ul class="ul-p">
   <li>Learning and adhering to S.O.L.I.D. principles</li>
