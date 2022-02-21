@@ -2,7 +2,7 @@
 title: Lazztech Hub
 company: Lazztech LLC
 website: https://lazz.tech/lazztech-hub-winter-updates/
-frontend: Angular | Ionic | Apollo | TypeScript
+frontend: Angular | Ionic | Apollo | TypeScript | XCode
 backend: Nestjs | Node | GraphQL | TypeScript
 persistence: PostgresSQL | Sqlite | TypeORM
 deployment: Docker | Kubernetes | k3s
