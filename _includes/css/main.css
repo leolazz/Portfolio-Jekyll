@@ -486,6 +486,9 @@ footer .footer-below {
     list-style-type: none;
   
   }
+#text-left {
+  text-align: start;
+}
 @media(min-width:1200px) {
   #center-list-small-screen {
     text-align: center;
