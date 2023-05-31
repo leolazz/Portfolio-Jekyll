@@ -1,10 +1,10 @@
 # Site settings
 title: Leo Lazzarini
-email: contac@leolazz.tech
+email: contact@leolazz.tech
 url: https://leolazz.tech
-description: 'Full Stack Software Developer. Typescript | Angular | Ionic | React | C# | Javascript | NestJs | Docker | Kubernetes'
-keywords: 'Software, Developer, SDE, Typescript, Angular, Ionic, React, C#, Javascript, NestJs, Docker, Kubernetes'
-skills: 'Full Stack Developer & Sales'
+description: 'Full Stack Software Engineer. Typescript | Angular | Ionic | React | C# | Java | Pyton | Terraform | Javascript | NestJs | Docker | Kubernetes'
+keywords: 'Software, Developer, Engineer, SDE, Typescript, Angular, Ionic, React, C#, Javascript, NestJs, Docker, Kubernetes'
+skills: 'Full Stack Software Engineer'
 meta_author: Lazzarini Leo
 
 # Google webmaster tools
