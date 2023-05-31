@@ -24,7 +24,7 @@ challengesLazz: <ul class="ul-p">
   </ul>
 results: Gained experience working collaboratively and completed my first onboarding process, while learning a new stack. Contributed meaningful improvements to backend & frontend code base, and greatly increased confidence in my skill level.
 layout: default
-modal-id: 1
+modal-id: 2
 date: October 2021 - Ongoing
 img: lazztech.png
 alt: image-alt

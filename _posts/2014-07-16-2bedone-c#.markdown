@@ -29,7 +29,7 @@ challengesB2: <ul class="ul-p">
   </ul>
   </ul>
 results: Solidified lessons from months of courses, learned  Dev-Ops technologies, greatly increased confidence in skill level, and gained a clearer understanding of the reality of software development.
-modal-id: 4
+modal-id: 5
 date: 2014-08-16
 img: 2bedone.png
 project-date: April 2014

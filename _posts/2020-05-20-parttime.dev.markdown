@@ -32,7 +32,7 @@ challengesB2: <ul class="ul-p">
   </ul>
 results: In addition to learning a new stack, becoming more capable and comfortable in it than my original, I improved my mental model of the DOM in order to traverse it in a headless environment, and greatly improved my skill level in Dev-Ops technologies like <strong>Docker</strong> and <strong>Kubernetes</strong>.
 layout: default
-modal-id: 3
+modal-id: 4
 date: 2021-05-15
 img: parttimedev.png
 alt: image-alt

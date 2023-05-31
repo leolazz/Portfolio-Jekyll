@@ -1,0 +1,37 @@
+---
+title: Belcan
+role: Full Stack Software Engineer
+header: Earned individual recognition from CEO, multiple awards, and promotion within 6 months of starting for playing a significant role in the exceptional success of a project.
+client1: NEW SHEPARD TEST FLIGHT & OPERATIONS, BLUE ORIGIN, 2022 - MARCH 2023
+client1Bullets: <ul class="ul-p">
+  <li>Built React UI with custom components for rocket MRO tracking application, in the process identified and addressed critical edge cases in UI mock-ups.</li>
+  <li>Implemented full stack GraphQL solution from API to client-side state management and querying into application architecture to adhere to established guidelines and prepare our service to be used by other teams.</li>
+  <li>Acted as a key technical advisor to the team on the tech stack including Apollo Client, GraphQL, React, and Typescript.</li>
+  <li>Sole technical advisor for deployment and infrastructure technologies including Kubernetes, Docker, AWS, and Terraform.</li>
+  <li>
+  Onboarded and trained team members in relevant technologies and paradigms.
+  </li>
+  <li>
+  Designed the accepted solution to meet project needs and client requests, effectively delegating implementation tasks to team members.
+  </li>
+  <li>
+  Led crucial technical research on application features vital to future contract success.
+  </li>
+  <li>
+  Maintained the highest sprint point average on the team.
+  </li>
+  </ul>
+client2: Profile Manager, INTERNAL CLIENT, 2022 - ONGOING
+client2Bullets: <ul class="ul-p">
+  <li>Designed and independently executed a UI to data layer refactor, normalizing data structures and existing datasets.</li>
+  <li>Significantly improved search accuracy by leveraging the refactored & normalized schema along with a previously dormant full-text search feature in PostgreSQL.</li>
+  <li>Identified and resolved an issue that prevented the tool's usage within the internal network.</li>
+  <li>Collaboratively designed a phased migration plan to a microservice architecture from a monolithic design leveraging a modern tech stack for enhanced maintainability.</li>
+  </ul>
+modal-id: 1
+date: 2022-08-16
+project-date: April 2014
+category: Web Development
+client: Start Bootstrap
+layout: default
+---

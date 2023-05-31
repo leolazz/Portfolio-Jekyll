@@ -33,7 +33,7 @@ challengesB2: <ul class="ul-p">
   </ul>
 results: Increased overall skill and knowledge base in a new tech stack while accelerating the onboarding process to the Lazztech Hub, and in the process found my preferred technology stack.
 layout: default
-modal-id: 2
+modal-id: 3
 date: 2021-07-17
 img: 2bedonepwa.png
 alt: image-alt

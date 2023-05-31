@@ -5,11 +5,30 @@
     <div class="col-lg-10 col-lg-offset-1 ">
       <div class="modal-body">
         <h2 class="text-center"  style="word-wrap: break-word; white-space: normal">{{ post.title }}</h2>
-        <hr class="hr-green">
+        <hr class="hr-green"/>
+        {% if post.description %}  
         <h4 class="text-center">{{ post.description }}</h4>
         <hr class="star-primary" />
+        {% endif %}
+        {% if post.header %}  
+        <h5 class="text-center">{{ post.header }}</h5>
+        <hr class="star-primary" />
         <h4 class="text-center">Role: {{ post.role }}</h4>
-        
+        {% endif %}
+
+      {% if post.client1 %}
+      <div class="row">
+        <h4 style="margin-top: 20px;" class="text-center">Clients & Projects</h4>
+        <hr class="hr-green"/>
+        <h4 style="margin-top: 20px;" class="text-center">{{post.client1}}</h4>
+        <div class="col-lg-12  col-md-12 li-h5" >{{post.client1Bullets}}</div>
+      </div>
+      <div class="row">
+        <hr class="hr-green"/>
+        <h4 style="margin-top: 20px;" class="text-center">{{post.client2}}</h4>
+        <div class="col-lg-12  col-md-12 li-h5" >{{post.client2Bullets}}</div>
+      </div>
+        {% endif %}
         <a href="{{post.website}}" target="_blank" rel="noopener noreferrer"> 
         <img
           src="img/portfolio/{{ post.img }}"
@@ -17,6 +36,15 @@
           alt="{{ post.alt }}"
         />
       </a>
+
+      {% if post.why %}
+      <div class="row">
+      <h4 style="margin-top: 20px;" class="text-center">Why I Made this</h4>
+      <hr class="hr-green">
+      <div class="col-lg-5  col-md-5 li-h5" >{{post.whyBullets}}</div>
+      <div class="col-lg-7 col-md-7" ><p >{{post.why}}</p></div>
+    </div>
+    {% endif %}
 
       {% if post.why %}
       <div class="row">
@@ -51,6 +79,7 @@
     </div>
     {% endif %}
 
+    {% if post.results %}
     <div class="row">
       <h4 style="margin-top: 10px;" class="text-center">Results</h4>
       <hr class="hr-green">
@@ -63,7 +92,8 @@
           <hr class="hr-green">
           <div class="row">
             <ul class="list-inline stack-list item-details center-list-small-screen">
-
+        {% endif %}
+        
           {% if post.frontend %}
           <li>
             Frontend:
@@ -91,12 +121,13 @@
         </ul >
 
       </div>
-      
+      {% if post.website %}
       <hr class="star-primary" />
       <div >
         <h4 class="text-center"> 
           <a class="btn btn-primary btn-sm button-margin-mobile"  href="{{post.website}}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-2x fa-external-link fa-external-link-glow"></i
             ><p>website</p></a>
+            {% endif %}
             {% if post.backendUrl %}
             <a class="btn btn-primary btn-sm button-margin-mobile" href="{{post.backendUrl}}" target="_blank" rel="noopener noreferrer"> <i class="btn-github-outline-project fa fa-fw fa-2x fa-github"></i
               > <p>Backend</p></a>
